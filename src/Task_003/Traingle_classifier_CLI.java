@@ -2,9 +2,9 @@ package Task_003;
 
 public class Traingle_classifier_CLI {
     public static void main(String[] args) {
-        int L1= Integer.parseInt(args[0]);
-        int L2= Integer.parseInt(args[1]);
-        int L3= Integer.parseInt(args[2]);
+        double L1= Double.parseDouble(args[0]);
+        double L2= Double.parseDouble(args[1]);
+        double L3= Double.parseDouble(args[2]);
 
         if(L1==L2&&L1==L3){
 
