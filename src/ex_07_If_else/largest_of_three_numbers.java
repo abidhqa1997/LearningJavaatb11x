@@ -1,4 +1,4 @@
-package If_else;
+package ex_07_If_else;
 
 public class largest_of_three_numbers {
     public static void main(String[] args) {

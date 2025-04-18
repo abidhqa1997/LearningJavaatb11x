@@ -9,7 +9,6 @@ public class Traingle_classifier_CLI {
         if(L1==L2&&L1==L3){
 
             System.out.println("Equilateral Traingle or Accute Triangle");
-
         }
         else if (L1==L2||L2==L3||L3==L1){
 

@@ -16,7 +16,7 @@ public class Triangle_classifier_Scanner {
         double s3 = input.nextDouble();
 
         // Classifying the triangle based on side lengths
-        if (s1 == s2 && s2 == s3) {
+        if (s1 == s2 && s1 == s3) {
             System.out.println("Equilateral Triangle");
         } else if (s1 == s2 || s2 == s3 || s1 == s3) {
             System.out.println("Isosceles Triangle");
